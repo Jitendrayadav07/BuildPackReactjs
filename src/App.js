@@ -19,7 +19,7 @@ function App() {
   }, []);
 
   const handleSubmit = async () => {
-    if (!roleName) return alert("Role name required");
+    if (!roleName) return alert("Role name is required ");
 
     if (editId) {
       await fetch(`${API_URL}/${editId}`, {
