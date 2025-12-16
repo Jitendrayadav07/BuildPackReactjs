@@ -6,7 +6,7 @@ function App() {
   const [roleName, setRoleName] = useState("");
   const [editId, setEditId] = useState(null);
 
-  const API_URL = "http://localhost:2000/api/roles";
+  const API_URL = "http://34.29.113.142/api/roles";
 
   const fetchRoles = async () => {
     const res = await fetch(API_URL);
